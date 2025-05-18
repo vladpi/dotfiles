@@ -1,13 +1,6 @@
 ---
 - clean: ["~"]
 
-- shell:
-    - command: |
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" || true
-      description: Install Homebrew
-      stdout: true
-      stderr: true
-
 # See https://ohmyz.sh
 - shell:
     - command: |

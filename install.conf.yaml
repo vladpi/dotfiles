@@ -34,3 +34,4 @@
     no-upgrade: true
     stdout: true
     stderr: true
+    include: ["tap", "brew", "cask", "mas"]

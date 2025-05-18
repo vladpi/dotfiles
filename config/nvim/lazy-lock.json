@@ -1,0 +1,4 @@
+{
+  "lazy.nvim": { "branch": "main", "commit": "bef521ac89c8d423f9d092e37b58e8af0c099309" },
+  "vscode-multi-cursor.nvim": { "branch": "main", "commit": "a0af78cf5e5a6f2d55e37e7907a3d1b096bbaa4d" }
+}

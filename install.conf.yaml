@@ -14,9 +14,15 @@
   ~/.config:
     path: config
     create: true
-  ~/.zshrc: zshrc
-  ~/.zshenv: zshenv
-  ~/.zprofile: zprofile
+  ~/.zshrc:
+    path: zshrc
+    force: true
+  ~/.zshenv:
+    path: zshenv
+    force: true
+  ~/.zprofile:
+    path: zprofile
+    force: true
 
   # Git:
   ~/.gitconfig: gitconfig

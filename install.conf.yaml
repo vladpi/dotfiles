@@ -10,23 +10,23 @@
       stderr: true
 
 - link:
-  # Terminal:
-  ~/.config:
-    path: config
-    create: true
-  ~/.zshrc:
-    path: zshrc
-    force: true
-  ~/.zshenv:
-    path: zshenv
-    force: true
-  ~/.zprofile:
-    path: zprofile
-    force: true
+    # Terminal:
+    ~/.config:
+      path: config
+      create: true
+    ~/.zshrc:
+      path: zshrc
+      force: true
+    ~/.zshenv:
+      path: zshenv
+      force: true
+    ~/.zprofile:
+      path: zprofile
+      force: true
 
-  # Git:
-  ~/.gitconfig: gitconfig
-  ~/.gitignore: gitignore
+    # Git:
+    ~/.gitconfig: gitconfig
+    ~/.gitignore: gitignore
 
 # Installing dependencies:
 - brewfile:

@@ -3,7 +3,7 @@
 
 - shell:
     - command: |
-        sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" || true
+        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" || true
       description: Install Homebrew
       stdout: true
       stderr: true
